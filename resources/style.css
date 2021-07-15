@@ -1,0 +1,39 @@
+#drum-kit {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    height: 10rem;
+    width: 1500px;
+    padding: 1rem;
+    
+    flex: auto;
+    flex-direction: column;
+    flex-flow: wrap;
+    
+    background-color: black;
+}
+
+#button-container {
+    flex-wrap: wrap;
+}
+
+#left-side-drums {
+    display: flex;
+   float: left;
+}
+
+#right-side-drums {
+    display: flex;
+   float: right;
+}
+
+.drum-button {
+    height: 10rem;
+    width: 10rem;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
